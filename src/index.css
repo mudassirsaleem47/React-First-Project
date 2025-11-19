@@ -5,7 +5,7 @@ body {
   font-family: 'Stack Sans Text', sans-serif;
 }
 
-#card-wrapper::-webkit-scrollbar{
-  display: none;
-  
+#card-wrapper {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
